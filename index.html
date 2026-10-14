@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online book store</title>
+    <style>
+        .header{
+            background: orange;
+            height: 80px;
+            display: flex;
+            align-items: center;
+        }
+        .Logo{
+            width: 150px;
+            text-align: center;
+        }
+        .title .header{
+            flex: 1;
+            text-align: center;
+        }
+        .menu{
+           background-color: aqua;
+           text-align: center;
+           display: flex;
+           justify-content: space-around;
+           allign-items:center;
+        }
+        .menu a {
+            text-decoration: none;
+            color:rgb(228, 19, 19);
+            display:flex;
+            justify-content: space-around;
+        }
+        .main{
+             display: flex;
+             height: 600px;
+             background:white;
+
+        }
+        .main a {
+            text-decoration:none;
+
+        }
+        .left{
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+            border: right 1pxn solid black;
+
+        }
+        .right{
+            border-left: 1px solid black;
+            padding: 20px;
+            justify-content: space-around;
+            display: flex;
+        }
+        .right iframe{
+            width: 100%;
+            height: auto;
+            border: none;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class = "header">
+        
+<div class = "Logo">
+    <img src="C:\Users\hp\csit2D1-183\EXPERIMENT-1\846imguf_LogoGLBajaj.jpg" alt="college logo" width="150" height="70">
+</div>
+<div class = "title">
+    <h1>GL bajaj book store</h1>
+</div>
+    </div>
+    <div class = "menu">
+        <a href="index.html" target="content">Home</a>
+        <a href="login.html" target="content">Log in</a>
+        <a href="regestration.html" target="content">Registration</a>
+        <a href="catalogue.html">Catalogue</a>
+        <a href="cart.html" target="content">Cart</a>
+        
+    </div>
+    <div class = "main">
+<div class = "left">
+      <a href="cse.html" target="content">CSE</a>
+      <a href="ece.html" target="content">ECE</a>
+      <a href="ee.html" target="content">EE</a>
+      <a href="civil.html" target="content">CIVIL</a>
+    </div>
+    <div class = "right">
+        <iframe src="home.html" name="content" ></iframe>
+    </div>
+        </div>
+    
+    
+</body>
+</html>
