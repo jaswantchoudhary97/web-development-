@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Login Form</title>
+   <link rel="stylesheet" href="style.css">
+   <style>
+body {
+   font-family: Arial, sans-serif;
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+}
+login-container {
+   background-color: rgb(212, 23, 23);
+   padding: 20px;
+   border-radius: 8px;
+   box-shadow: 0 4px 6px black;
+   width: 300px;
+}
+h2 {
+   text-align: center;
+   margin-bottom: 20px;
+}
+form label {
+   display: block;
+   margin-bottom: 8px;
+   font-weight: bold;
+}
+form input {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 15px;
+   border: 1px solid black;
+   border-radius: 4px;
+}
+form button {
+   width: 100%;
+   padding: 10px;
+   background-color: rgb(206, 28, 200);
+   color: white;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+form button:hover {
+   background-color: rgb(48, 63, 228);
+}log
+</style>
+</head>
+<body>
+
+   
+   <div class="login-container">
+       <h2>Login</h2>
+       <form action="/submit-login" method="POST">
+           <label for="username">Username</label>
+           <input type="text" id="username" name="username" placeholder="Enter your username" required>
+           <label for="password">Password</label>
+           <input type="password" id="password" name="password" placeholder="Enter your password" required>
+           <button type="submit">Login</button>
+       </form>
+   </div>
+</body>
+</html>
